@@ -1,0 +1,12 @@
+
+
+# Documento de requisitos
+
+** Programa: triangulo
+**Autor: Franco Mendes de Souza**
+**Data: 31/03/2026**
+**Versão: 0.0.1**
+
+[//]: # (Aqui você vai descrever os pedidos que lhe foram feitos, isto é, o que o programa precisa fazer.)
+
+Este programa calcula a área de um triangulo a partir do valor da base e da altura digitadas pelo usuário.
