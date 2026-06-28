@@ -1,0 +1,30 @@
+Unidade X
+
+1. Redes, protocolo e web
+
+Para que computadores possam se comunicar em rede é necessário uma "linguagem" sem semântica, chamada protocolo.
+
+Os protocolos vão sendo chamados em cadeia, partindo de um protocolo de alto nível, passando para protocolos de nível cada vez mais baixo até a camada física (o próprio cabo).
+
+Os computadores entendem-se por cadeias de protocolos que estão instalados em ambos. Antigamente era necessário instalar os protocolos que seriam utilizados, mas hoje os principais já vêm instalados no computador. Caso deseje-se um nível alto de segurança, é possível instalar protocolos mais exclusivos, assim um computador sem acesso a esses protocolos não conseguirá acessar o seu.
+
+O protocolo mais famoso da atualidade é o TCP/IP
+
+O protocolo básico da internet atualmente é o HTTP
+
+A comunicação interna de um computador também pode ser feita por protocolos, para integrar processos web com processos do programa python
+
+2. Arquitetura
+
+Você pode criar um módulo de entrada e saída chamado es ou InOut, mas evite io ou IO, pois pode gerar confusões. Nesse módulo, é possível haver várias entradas e saída, por exemplo uma saída para a tela e uma saída HTTP.
+
+A arquitetura MVC é composta pelas camadas Model, View e Controller
+
+Módulo de controle (chamado controller)
+
+Módulo de visualização (chamado view)
+
+Módulo Model, módulos de processamento de dados
+
+Módulo DAL (casos de modelos complexos)
+

@@ -1,0 +1,42 @@
+Abrir sempre o PowerShell do Windows como prompt de comando prioritário. Se usar o Anaconda, abrir o Anaconda PowerShell.
+
+O primeiro objetivo para criar a máquina virtual é chegar na pasta onde a máquina será criada através do PowerShell. Isso se dá através dos seguintes comandos:
+
+cd 'nome da pasta' - Entra na pasta
+cd .. - Sai da pasta e volta para a pasta anterior
+ls - lista as pastas presentes no diretório atual
+ctrl + l - limpa a tela do PowerShell
+
+OBS: É possível completar automaticamente os nomes das pastas utilizando TAB.
+
+Outras istruções opcionais
+
+mkdir 'nome do diretório' - cria diretório
+
+remove-item 'nome do diretório' - apaga diretório
+
+CRIANDO AMBIENTE VIRTUAL
+
+conda create -n 'nome da pasta' python=3.14 - Cria ambiente virtual
+
+conda activate 'nome da pasta' - Ativa o ambiente virtual
+
+NO ANACONDA NAVIGATOR
+
+modificar base (root) para 'Nome da pasta'
+
+instalar o Jupiter Lab
+
+instalar o PowerShell Prompt
+
+Abrir o JupiterLab e programar por ali
+
+AO FINAL DA SEÇÃO DE PROGRAMAÇÃO
+
+1. Fechar Anaconda Navigator
+
+2. desinstalar os pacotes utilizados (como o JupyterLab) através do seguinte comando: conda remove -- 'nome do pacote'
+
+OBS: você pode checar os pacotes instalados pelo seguinte comando: conda list
+
+3. Desativar o ambiente virtual com o seguinte comando: conda deactivate

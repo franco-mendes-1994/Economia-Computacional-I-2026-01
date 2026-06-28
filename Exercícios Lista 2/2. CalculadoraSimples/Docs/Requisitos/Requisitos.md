@@ -1,0 +1,1 @@
+Crie uma classe com métodos para somar, subtrair, multiplicar e dividir dois números informados pelo usuário, guardando o último resultado.
